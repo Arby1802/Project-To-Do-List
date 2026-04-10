@@ -2,8 +2,8 @@ const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
 var today = new Date().toISOString().split('T')[0];
-document.getElementById("exprieDate").setAttribute('min',today);
-var expire = document.getElementById("exprieDate");
+document.getElementById("expireDate").setAttribute('min',today);
+var expire = document.getElementById("expireDate");
 
 function addTask(){
 
